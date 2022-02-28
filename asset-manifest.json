@@ -1,0 +1,43 @@
+{
+  "files": {
+    "app.js": "/hwangskitchen/static/js/app.57e7bf3a.chunk.js",
+    "app.js.map": "/hwangskitchen/static/js/app.57e7bf3a.chunk.js.map",
+    "runtime~app.js": "/hwangskitchen/static/js/runtime~app.ed34099b.js",
+    "runtime~app.js.map": "/hwangskitchen/static/js/runtime~app.ed34099b.js.map",
+    "static/js/2.f35a2505.chunk.js": "/hwangskitchen/static/js/2.f35a2505.chunk.js",
+    "static/js/2.f35a2505.chunk.js.map": "/hwangskitchen/static/js/2.f35a2505.chunk.js.map",
+    "fonts/AntDesign.ttf": "/hwangskitchen/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/hwangskitchen/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/hwangskitchen/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/hwangskitchen/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/hwangskitchen/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/hwangskitchen/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/hwangskitchen/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/hwangskitchen/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/hwangskitchen/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/hwangskitchen/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/hwangskitchen/./fonts/MaterialIcons.ttf",
+    "fonts/Questrial_400Regular.ttf": "/hwangskitchen/./fonts/Questrial_400Regular.ttf",
+    "fonts/SimpleLineIcons.ttf": "/hwangskitchen/./fonts/SimpleLineIcons.ttf",
+    "fonts/Sriracha_400Regular.ttf": "/hwangskitchen/./fonts/Sriracha_400Regular.ttf",
+    "favicon-16.png": "/hwangskitchen/favicon-16.png",
+    "favicon-32.png": "/hwangskitchen/favicon-32.png",
+    "favicon.ico": "/hwangskitchen/favicon.ico",
+    "index.html": "/hwangskitchen/index.html",
+    "manifest.json": "/hwangskitchen/manifest.json",
+    "serve.json": "/hwangskitchen/serve.json",
+    "static/js/2.f35a2505.chunk.js.LICENSE.txt": "/hwangskitchen/static/js/2.f35a2505.chunk.js.LICENSE.txt",
+    "static/media/bannerimg.jpg": "/hwangskitchen/static/media/bannerimg.2fa6b2c2.jpg",
+    "static/media/bell.png": "/hwangskitchen/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/hwangskitchen/static/media/heart.23b5c2c0.png",
+    "static/media/logo.png": "/hwangskitchen/static/media/logo.8047570e.png",
+    "static/media/rocket.png": "/hwangskitchen/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/hwangskitchen/static/media/star.69c71386.png",
+    "static/media/storefront.jpg": "/hwangskitchen/static/media/storefront.db158da7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.ed34099b.js",
+    "static/js/2.f35a2505.chunk.js",
+    "static/js/app.57e7bf3a.chunk.js"
+  ]
+}
