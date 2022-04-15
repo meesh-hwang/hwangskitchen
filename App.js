@@ -5,6 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { navigationRef } from './RootNavigation';
 
 import { useFonts } from 'expo-font';
 
@@ -45,7 +46,8 @@ const Stack = createNativeStackNavigator(
         <ProductsProvider>
           <CartProvider>
         <Header/>
-        <NavigationContainer>
+
+        <NavigationContainer ref={navigationRef}>
           <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
               name="Home"
@@ -64,6 +66,7 @@ const Stack = createNativeStackNavigator(
             />
           </Stack.Navigator>
         </NavigationContainer>
+        
             </CartProvider>
         </ProductsProvider>
 

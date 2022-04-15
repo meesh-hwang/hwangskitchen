@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function Hamburger() {}","map":{"version":3,"sources":["C:/Users/miche/Desktop/hwangskitchen/components/Hamburger.js"],"names":["Hamburger"],"mappings":"AAAA,eAAe,SAASA,SAAT,GAAqB,CAEnC","sourcesContent":["export default function Hamburger() {\r\n    \r\n}"]},"metadata":{},"sourceType":"module"}

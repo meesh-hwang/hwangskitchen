@@ -1,13 +1,43 @@
 /* CSS RESET */
 @import-normalize;
 
-/* image resizing*/
-.logo {
-    width: 150px;
-    align-self: center;
-    position: fixed;
-    top: 30px;
+html.touch *:hover {
+  pointer-events: none !important;
 }
+
+/* image resizing*/
+img.logo {
+    width: 150px;
+    position: absolute;
+    top: -20px;
+}
+
+button.headerLogo:hover {
+  border: none;
+  background-color: transparent;
+  cursor:pointer;
+  box-shadow: none;
+}
+
+@media (min-width:630px) {
+  img.logo {
+    left: 20%;
+  }
+}
+
+
+@media (min-width:900px) {
+  img.logo {
+    left: 30%;
+  }
+}
+
+@media (min-width:1300px) {
+  img.logo {
+    left: 40%;
+  }
+}
+
 
 .cart {
     width: 27px;
@@ -232,10 +262,12 @@ div .cart-count {
   text-align: center;
   background-color: #ffa551;
   border-radius: 30px;
-  height:18px;
-  width: 18px;
+  height:17px;
+  width: 17px;
+  position: absolute;
   padding-top: 4px;
-  padding-right: 4px;
+  padding-right: 2px;
+  right:-16px;
   font-size: 12px;
 }
 
@@ -275,12 +307,12 @@ button.added {
 
 
 .cartBtn {
-  position: fixed;
-  width: 100px;
-  top: 80%;
-  padding: 3px;
-  border-radius: 50px;
-  right: 5%;
+  position: absolute;
+  right: 30px;
+}
+
+.cartBtn:hover{
+  cursor: pointer;
 }
 
 .product-image {

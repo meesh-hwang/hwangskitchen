@@ -5,7 +5,7 @@ import { useState, useContext } from "react";
 
 import '../css/main.css';
 import { StyleSheet, View, TouchableOpacity} from 'react-native';
-
+import * as RootNavigation from '../RootNavigation.js';
 // Import theme
 import { ThemeProvider, } from 'react-native-elements';
 import { HwangsTheme } from '../themes/HwangsTheme';
@@ -13,6 +13,7 @@ import { HwangsTheme } from '../themes/HwangsTheme';
 // Import images
 import logo from '../assets/img/logo.png';
 import cart from '../assets/img/cart.png';
+import HomeScreen from "../screens/HomeScreen";
 
 import {
   CartStateContext,
@@ -68,13 +69,14 @@ const Header = (props) => {
               </nav>
             </View>
             <View style={{flex:1}}>
-              <a href="../screens/HomeScreen" className='headerLogo'>
+              <button onClick={()=>RootNavigation.navigate('Home')} className='headerLogo' style={{backgroundColor:'transparent',border:'none'}}>
                 <img src={logo} alt="Hwang's Kitchen" className="logo" />
-              </a>         
+              </button>         
             </View>
             <View style={{flex:1,flexDirection:'row', justifyContent:'flex-end'}}>
               <div className="cart-icon">
-                <img src={cart} alt="Shopping cart icon" className={props.cartBounce ? "tada" : " ", cart}></img>
+                <button style={{border:'none', backgroundColor:'transparent', padding:0}} onClick={() => RootNavigation.navigate('Cart')} className='cartBtn'><img src={cart} alt="Shopping cart icon" className={props.cartBounce ? "tada" : " "} />
+                </button>
                 {cartQuantity ? (
                     <span className="cart-count">{cartQuantity}</span>
                   ) : (
