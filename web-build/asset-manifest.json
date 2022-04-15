@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/hwangskitchen.git/static/js/app.550b333c.chunk.js",
-    "app.js.map": "/hwangskitchen.git/static/js/app.550b333c.chunk.js.map",
+    "app.js": "/hwangskitchen.git/static/js/app.98932a7f.chunk.js",
+    "app.js.map": "/hwangskitchen.git/static/js/app.98932a7f.chunk.js.map",
     "runtime~app.js": "/hwangskitchen.git/static/js/runtime~app.c26df358.js",
     "runtime~app.js.map": "/hwangskitchen.git/static/js/runtime~app.c26df358.js.map",
     "static/js/2.3742cc8d.chunk.js": "/hwangskitchen.git/static/js/2.3742cc8d.chunk.js",
@@ -38,6 +38,6 @@
   "entrypoints": [
     "static/js/runtime~app.c26df358.js",
     "static/js/2.3742cc8d.chunk.js",
-    "static/js/app.550b333c.chunk.js"
+    "static/js/app.98932a7f.chunk.js"
   ]
 }
