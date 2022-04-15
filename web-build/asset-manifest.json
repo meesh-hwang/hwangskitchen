@@ -1,0 +1,43 @@
+{
+  "files": {
+    "app.js": "/hwangskitchen.git/static/js/app.550b333c.chunk.js",
+    "app.js.map": "/hwangskitchen.git/static/js/app.550b333c.chunk.js.map",
+    "runtime~app.js": "/hwangskitchen.git/static/js/runtime~app.c26df358.js",
+    "runtime~app.js.map": "/hwangskitchen.git/static/js/runtime~app.c26df358.js.map",
+    "static/js/2.3742cc8d.chunk.js": "/hwangskitchen.git/static/js/2.3742cc8d.chunk.js",
+    "static/js/2.3742cc8d.chunk.js.map": "/hwangskitchen.git/static/js/2.3742cc8d.chunk.js.map",
+    "fonts/AntDesign.ttf": "/hwangskitchen.git/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/hwangskitchen.git/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/hwangskitchen.git/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/hwangskitchen.git/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/hwangskitchen.git/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/hwangskitchen.git/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/hwangskitchen.git/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/hwangskitchen.git/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/hwangskitchen.git/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/hwangskitchen.git/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/hwangskitchen.git/./fonts/MaterialIcons.ttf",
+    "fonts/Questrial_400Regular.ttf": "/hwangskitchen.git/./fonts/Questrial_400Regular.ttf",
+    "fonts/SimpleLineIcons.ttf": "/hwangskitchen.git/./fonts/SimpleLineIcons.ttf",
+    "fonts/Sriracha_400Regular.ttf": "/hwangskitchen.git/./fonts/Sriracha_400Regular.ttf",
+    "favicon-16.png": "/hwangskitchen.git/favicon-16.png",
+    "favicon-32.png": "/hwangskitchen.git/favicon-32.png",
+    "favicon.ico": "/hwangskitchen.git/favicon.ico",
+    "index.html": "/hwangskitchen.git/index.html",
+    "manifest.json": "/hwangskitchen.git/manifest.json",
+    "serve.json": "/hwangskitchen.git/serve.json",
+    "static/js/2.3742cc8d.chunk.js.LICENSE.txt": "/hwangskitchen.git/static/js/2.3742cc8d.chunk.js.LICENSE.txt",
+    "static/media/bannerimg.jpg": "/hwangskitchen.git/static/media/bannerimg.2fa6b2c2.jpg",
+    "static/media/bell.png": "/hwangskitchen.git/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/hwangskitchen.git/static/media/heart.23b5c2c0.png",
+    "static/media/logo.png": "/hwangskitchen.git/static/media/logo.8047570e.png",
+    "static/media/rocket.png": "/hwangskitchen.git/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/hwangskitchen.git/static/media/star.69c71386.png",
+    "static/media/storefront.jpg": "/hwangskitchen.git/static/media/storefront.db158da7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.c26df358.js",
+    "static/js/2.3742cc8d.chunk.js",
+    "static/js/app.550b333c.chunk.js"
+  ]
+}
