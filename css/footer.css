@@ -1,0 +1,16 @@
+
+#root > div > div > div > div:nth-child(3) > div {
+    width:100%;
+  }
+
+  
+#root > div > div > div > div:nth-child(3) {
+    position: relative;
+    justify-content: flex-end;
+    bottom:-10%;
+  }
+  
+  
+div#root{
+    flex:none;
+  }
