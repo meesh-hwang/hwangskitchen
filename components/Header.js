@@ -100,9 +100,10 @@ const styles = StyleSheet.create({
       flex:1,
       flexDirection:'row',
       justifyContent:'center',
-      padding: '40px',
+      paddingVertical: '40px',
       zIndex:100,
       position:'fixed',
-      width: '100%'
+      width: '100%',
+      paddingHorizontal: '2vw'
     }
   });

@@ -38,7 +38,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={{padding:30, lineHeight:28, paddingLeft: '25%'}} h2>Located in the Henderson Mall {"\n"}food-court (2nd floor)</Text>
           </View>
 
-          <View style={styles.container, {padding:40, flexDirection:'row',justifyContent:'center',marginTop: 20,paddingBottom:60, backgroundColor:'none'}}>
+          <View style={[styles.container, {padding:40, flexDirection:'row',justifyContent:'center',marginTop: 20,paddingBottom:60, backgroundColor:'none'}]}>
               <a href="https://goo.gl/maps/XHr1W4tDVnffUr9e8" className="address" style={{flex:1, textAlign:'right', marginRight:'5%',marginTop:35}}>2088-1163 Pinetree Way, <span style={{display:'block'}}>Coquitlam, BC, V3B 8A6</span></a>
               <div style={{flex:1}}>
                 <img src={storefront} alt="Hwang's Kitchen storefront" className='storefrontimg' />

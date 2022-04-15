@@ -19,6 +19,28 @@ button.headerLogo:hover {
   box-shadow: none;
 }
 
+@media (min-width:0) {
+  img.logo {
+    left:-25%;
+    width: 130px;
+    top: -15px;
+  }
+}
+
+@media (min-width:350px) {
+  img.logo {
+    left: -5%;
+    width: 130px;
+    top: -15px;
+  }
+}
+
+@media (min-width:500px) {
+  img.logo {
+    left: 10%;
+  }
+}
+
 @media (min-width:630px) {
   img.logo {
     left: 20%;
@@ -307,8 +329,7 @@ button.added {
 
 
 .cartBtn {
-  position: absolute;
-  right: 30px;
+  margin-top:-5px;
 }
 
 .cartBtn:hover{
