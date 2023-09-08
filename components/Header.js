@@ -20,11 +20,9 @@ import {
   CartDispatchContext,
   toggleCartPopup
 } from "../contexts/cart";
-import { CommonDispatchContext } from "../contexts/common";
 
 const Header = (props) => {
   const { items: cartItems, isCartOpen } = useContext(CartStateContext);
-  const commonDispatch = useContext(CommonDispatchContext);
   const cartDispatch = useContext(CartDispatchContext);
 
   // Cart quantity number
@@ -34,9 +32,6 @@ const Header = (props) => {
       item.quantity});
 
     Array.from(cartQuantity);
-
-
-
 
   const [navbarOpen, setNavbarOpen] = useState(false);
 
